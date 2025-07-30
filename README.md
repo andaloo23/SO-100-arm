@@ -93,7 +93,7 @@ colcon build --packages-select so_arm_100_hardware
 source install/setup.bash
 
 # Set USB permissions
-sudo chmod 666 /dev/ttyUSB0
+sudo chmod 666 /dev/ACM0
 
 # Run the servo test
 ros2 run so_arm_100_hardware test_servo

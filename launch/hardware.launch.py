@@ -30,7 +30,7 @@ def generate_launch_description():
                     [FindPackageShare('so_100_arm'), 'config', 'so_100_arm.urdf.xacro']
                 ),
                 ' ',
-                'use_fake_hardware:=false'
+                'use_fake_hardware:=true'
             ]
         ),
         value_type=str
